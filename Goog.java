@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 public class Goog {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		System.out.println("Input the Question File Name:");	//request input
 		Scanner sc = new Scanner(System.in);					//make new Scanner
 		String s = sc.next();									//get file name/path
-		File file = new File("/Users/andrewlott/Documents/workspace/My Projects/src/" + s);	//create File object
-		try {													//fuck this shit
+		File file = new File(System.getProperty("user.dir") + s);	//create File object
+		
+		try {													//blah blah error
 			sc = new Scanner(file);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -57,7 +55,7 @@ public class Goog {
 			
 		}		
 		
-		return new StringBuffer(s).reverse().toString();	//"I PUT MY THING DOWN, FLIP IT, AND REVERSE IT" (http://www.azlyrics.com/lyrics/missymisdemeanorelliott/workit.html)
+		return new StringBuffer(s).reverse().toString();	//REVERSE, REVERSE!
 	}
 }
 

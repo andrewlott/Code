@@ -1,0 +1,12 @@
+data:
+	Some data, including test input for Goog.java and some files that can be used for DVORAK.java
+
+DVORAK.java:
+	A DVORAK keyboard simulator with GUI. Needs Processing library to run, use App file instead.
+	
+DVORAK App:
+	DVORAK keyboard simulator applications for Windows/Mac OS/Linux
+	
+Goog.java
+	Google Code Jam practice problem: http://code.google.com/codejam/contest/dashboard?c=32003#
+	(May need to edit the file pathing to read from a .txt file on your own computer) 
