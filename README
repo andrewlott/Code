@@ -7,6 +7,9 @@ DVORAK.java:
 DVORAK App:
 	DVORAK keyboard simulator applications for Windows/Mac OS/Linux
 	
-Goog.java
+Goog.java:
 	Google Code Jam practice problem: http://code.google.com/codejam/contest/dashboard?c=32003#
 	(May need to edit the file pathing to read from a .txt file on your own computer) 
+
+hospitalz.py:
+	Python code for Dennis Shasha's Ambulance problem ( http://cs.nyu.edu/courses/fall10/G22.2965-001/ambulance.html )
